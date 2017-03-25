@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>The Log</title>
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/js.js"></script>
+	<link href="css/css.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<img id="theGear" class="pull-right" width="20px" src="imgs/gear.png">
+			<div id="corner-form" class="pull-right" style="margin-right:10px;display:none;">
+				<p>Settings:</p>
+				<form>
+					<div class="form-group">
+						<input type="text" class="form-control" id="logname" placeholder="Name">
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="logzip" placeholder="Zipcode">
+					</div>
+					<button id="option-submit" type="button" class="btn btn-default">Submit</button>
+				</form>
+			</div>
+			<h1>The Log</h1>
+			<nav>
+				<p id="theUsersName">--</p>
+			</nav>
+		</header>
+		
+		<section class="new-entry">
+			<h2 id="new-entry-date">March 14th, 2017 - 10:45pm</h2>
+			<table class="weather">
+				<tr>
+					<td colspan="4">
+						<p id="enterLocationInfo"><strong>Location </strong></p>
+					</td>
+				</tr>
+				<tr>
+					<th>Temperature</th>
+					<th>Precipitation</th>
+					<th>Humidity</th>
+					<th></th>
+				</tr>
+				<tr>
+					<td>
+						<h3 id="enterTempsHere"><img width="20px;" src="imgs/thermometer.svg">--</h3>
+					</td>
+					<td>
+						<h3 id="enterWeatherHere"><img width="20px;" src="imgs/rain-2.svg">--</h3>
+					</td>
+					<td>
+						<h3 id="enterHumidityHere"><img width="20px;" src="imgs/humidity.svg">--</h3>
+					</td>
+					<td></td>
+				</tr>
+			</table>
+			<form id="entryForm">
+				<div class="form-group">
+					<input type="text" class="form-control" id="logtitle" placeholder="Title">
+				</div>
+				<div class="form-group">
+					<textarea class="form-control" rows="5" id="logentry" placeholder="Log Entry"></textarea>
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" id="logtags" placeholder="Tags">
+				</div>
+				<button id="entry-submit" type="button" class="btn btn-default">Submit</button>
+			</form>
+		</section>
+		
+		<div id="theOneSpotForEntries">
+<!--
+	
+			<section class="old-entry">
+
+				<h2>Seed Starting Day!</h2>
+				<p><strong>March 14th, 2017 - 10:45pm<br>
+					Location</strong> // Hartsfield Elementary School WeatherSTEM, Tallahassee, Florida</p>
+				<table class="weather">
+					<tr class="margin-top-10">
+						<th>Temperature</th>
+						<th>Precipitation</th>
+						<th>Humidity</th>
+					</tr>
+					<tr>
+						<td>
+							<h3><img width="20px;" src="imgs/thermometer.svg"> 56 </h3>
+						</td>
+						<td>
+							<h3><img width="20px;" src="imgs/rain-2.svg"> 0.5 IN </h3>
+						</td>
+						<td>
+							<h3><img width="20px;" src="imgs/humidity.svg"> 96% </h3>
+						</td>
+					</tr>
+				</table>
+				<p class="entryText">Started some eggplant, tomatoes, basil, oregano, and sage today. Direct seeded lettuce, carrots, and peas!</p>
+				<p>Tags: seed-starting</p>
+
+			</section>
+
+			<section class="old-entry">
+
+				<h2>Seed Starting Day!</h2>
+				<p><strong>March 14th, 2017 - 10:45pm<br>
+					Location</strong> // Hartsfield Elementary School WeatherSTEM, Tallahassee, Florida</p>
+				<table class="weather">
+					<tr class="margin-top-10">
+						<th>Temperature</th>
+						<th>Precipitation</th>
+						<th>Humidity</th>
+					</tr>
+					<tr>
+						<td>
+							<h3><img width="20px;" src="imgs/thermometer.svg"> 56 </h3>
+						</td>
+						<td>
+							<h3><img width="20px;" src="imgs/rain-2.svg"> 0.5 IN </h3>
+						</td>
+						<td>
+							<h3><img width="20px;" src="imgs/humidity.svg"> 96% </h3>
+						</td>
+					</tr>
+				</table>
+				<p class="entryText">Started some eggplant, tomatoes, basil, oregano, and sage today. Direct seeded lettuce, carrots, and peas!</p>
+				<p>Tags: seed-starting</p>
+
+			</section>
+			
+-->
+		</div>
+	
+		<footer>
+
+			<p>© Joan Williams 2017</p>
+			
+		</footer>
+	</div>
+	
+</body>
+</html>

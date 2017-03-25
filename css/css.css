@@ -1,0 +1,92 @@
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+		margin: 1% 1% 1% 1%;
+}
+
+header {
+	border-bottom: #FFF solid 2px;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Amatic SC', cursive;
+}
+
+p {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.margin-top-10 {
+	margin-top: 10px;
+}
+
+.container {
+	background-color: #f8f8f8;
+}
+
+section.old-entry {
+	border-top: #FFF solid 2px;
+	margin-top: 16px;
+}
+
+.lg-font {
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.btn {
+	font-family: 'Amatic SC', cursive;
+	font-size: 24px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+#theUsersName {
+	margin-bottom: 20px;
+}
+
+#corner-form {
+	position: relative;
+	left: 30px;
+	top: 30px;
+	z-index: 0;
+	background-color: #FFF;
+	padding: 10px;
+	border: #CCCCCC solid 1px;
+	border-radius: 4px;
+}
+
+footer {
+	border-top: #FFF solid 2px;
+	margin-top: 27px;
+	padding-top: 7px;
+}
+
+table.weather {
+	margin-bottom: 11px;
+}
+
+table.weather td {
+	height: 30px;
+	width: 100px;
+	padding: 0;
+	margin: 0;
+}
+
+table.weather h3 {
+	margin: 0;
+	padding: 0;
+}
+
+.entryText {
+	font-size: 16px;
+	background-color: white;
+	padding: 10px;
+	margin-left: -11px;
+	margin-right: -11px;
+}
